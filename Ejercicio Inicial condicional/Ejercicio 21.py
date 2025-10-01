@@ -9,4 +9,4 @@ if discriminante>0:
     print("el valor x1 es:",raiz1)
     print("el valor x2 es:",raiz2)
 else:
-    print("La ecuacion no tiene soluciones reales")
+    print("La raíz no puede ser un valor negativo")
