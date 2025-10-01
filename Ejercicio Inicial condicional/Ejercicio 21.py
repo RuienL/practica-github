@@ -1,3 +1,4 @@
+# Programa que calcula una ecuación de segundo grado. Controla que el valor de la raíz cuadrada no de un valor negativo
 import math
 a=float(input("Ingrese el valor de a: "))
 b=float(input("Ingrese el valor de b: "))
