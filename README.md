@@ -29,3 +29,9 @@ y altura de un trapecio isósceles, nos devuelva por pantalla en el área y el p
 peso (en kg) y dividiendo por la estatura (en metros y elevado al cuadrado). Si el resultado es igual o superior a 25, debe aparecer un mensaje informando de sobrepeso.
 18. Cines Paradiso celebran su décimo aniversario y por ser un día especial realizan 
 importantes descuentos. A los adultos se les aplicará un 10% de descuento y a los menores de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por teclado el número de menores y el número de adultos que asisten al cine.
+19.  Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son iguales
+20.  A partir del ejercicio anterior, forzar que el usuario solo pueda introducir por teclados 
+números entre 0 y 10
+21.  Programa que calcula una ecuación de segundo grado. Controla que el valor de la raíz cuadrada no de un valor negativo
+22.  Programa que al introducir una nota por teclado te diga si has aprobado o suspendido. Si la nota es menos de un 5 es suspenso y si la nota es 5 o mayor estás aprobado.
+23.  Modifica el programa anterior para establecer si la nota es un excelente (8.5 a 10), un notable (>=6.5 -<8.5), satisfactorio (<6.5 -5) o insuficiente (<5). Controla que la nota introducida esté entre 0 y 10. Utilizar elif sin operadores lógicos.
