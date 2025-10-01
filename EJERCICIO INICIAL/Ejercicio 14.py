@@ -1,3 +1,4 @@
+##Programa que pida el valor del diámetro de un círculo y muestre por pantalla el área y el perímetro del mismo. Usa la constante pi del módulo math.
 import math
 diametro=float(input("introduce el valor numérico del diámetro del círculo"))
 radio=diametro/2

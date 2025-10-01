@@ -1,3 +1,4 @@
+#Programa que pida el valor del lado de un cubo y muestre por pantalla el volumen y el área del mismo.
 lado=float(input("introduce el valor numérico de un lado del volumen del cilindro"))
 volumen=lado**3
 area=6*lado**2

@@ -1,3 +1,4 @@
+##Programa que pida un número y muestre su raíz cuadrada y la raíz cuadrada dividida entre 2 (entero).
 import math #importar libreria de mates
 numero=float(input("Introduce un número: ")) 
 raiz=math.sqrt(numero)

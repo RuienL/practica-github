@@ -1,3 +1,4 @@
+##Programa que pida el valor del radio y la altura de un cilindro y muestre por pantalla el volumen y el área del mismo. Usa la constante pi del módulo math.
 import math
 radio=float(input("introduce el valor numérico del radio del círculo"))
 altura=float(input("introduce el valor numérico de la altura del cilindro"))

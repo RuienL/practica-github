@@ -1,3 +1,4 @@
+#Programa que pida dos números con decimales y realice las cuatro operaciones aritméticas básicas (suma, resta, multiplicación y división). Muestra el resultado de cada operación en pantalla.
 var1=float(input("introduce un número"))
 var2=float(input("introduce un número"))
 
