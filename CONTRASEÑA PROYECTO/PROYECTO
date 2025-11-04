@@ -1,0 +1,69 @@
+print("INSTRUCCIONS")
+print("1. La longitud del password ha de tenir entre 6 i 8 caràcters")
+print("Forçar els següents valors segons la posició indicada:")
+print("Posició 0: un número major o igual que 1 i menor o igual que 5")
+print("Posició 1: una lletra minúscula")
+print("Posició 2: una lletra majúscula")
+print("Posició 3: un dels següents símbols *, _, @")
+print("Posició 4: una lletra minúscula")
+print("Posició 5: un número major o igual que 6 i menor o igual que 9")
+print("Posició 6: un dels següents símbols &, /, #")
+print("Posició 7: un número menor o igual que 5")
+
+# Demanar la contrasenya
+password = input("\nIntrodueix la teva contrasenya: ")
+
+# Comprovar longitud
+if len(password) < 6 or len(password) > 8:
+    print("Error: la longitud ha de ser entre 6 i 8 caràcters.")
+else:
+    correcta = True  # fins que trobem un error
+
+    # Posició 0: número entre 1 i 5
+    if not (password[0].isdigit() and 1 <= int(password[0]) <= 5):
+        print("Error a la posició 0: ha de ser un número entre 1 i 5.")
+        correcta = False
+ 
+    # Posició 1: lletra minúscula
+    if len(password) > 1 and not password[1].islower():
+        print("Error a la posició 1: ha de ser una lletra minúscula.")
+        correcta = False
+
+    # Posició 2: lletra majúscula
+    if len(password) > 2 and not password[2].isupper():
+        print("Error a la posició 2: ha de ser una lletra majúscula.")
+        correcta = False
+
+    # Posició 3: símbol *, _, @
+    if len(password) > 3 and password[3] not in ['*', '_', '@']:
+        print("Error a la posició 3: ha de ser un dels símbols *, _, @.")
+        correcta = False
+
+    # Posició 4: lletra minúscula
+    if len(password) > 4 and not password[4].islower():
+        print("Error a la posició 4: ha de ser una lletra minúscula.")
+        correcta = False
+
+    # Posició 5: número entre 6 i 9
+    if len(password) > 5 and not (password[5].isdigit() and 6 <= int(password[5]) <= 9):
+        print("Error a la posició 5: ha de ser un número entre 6 i 9.")
+        correcta = False
+
+    # Posició 6: símbol &, /, #
+    if len(password) > 6 and password[6] not in ['&', '/', '#']:
+        print("Error a la posició 6: ha de ser un dels símbols &, /, #.")
+        correcta = False
+
+    # Posició 7: número menor o igual que 5 (només si hi ha 8 caràcters)
+    if len(password) == 8 and not (password[7].isdigit() and int(password[7]) <= 5):
+        print("Error a la posició 7: ha de ser un número menor o igual que 5.")
+        correcta = False
+
+    # Resultat 
+    if correcta:
+        print("Contrasenya vàlida.")
+    else:
+        print("La contrasenya no compleix totes les condicions.")
+
+
+
