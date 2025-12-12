@@ -5,7 +5,7 @@ num=int(input("Introduce 1-5 "))
 if num>5 or num<0:
     print("Introduzca un numero correcto")
     num=int(input("Introduce 1-5 "))
-    while num<5 and num>0:
+while num<5.1 and num>0:
         if num==num_random:
             print("Acertado")
             break
