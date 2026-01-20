@@ -1,0 +1,3 @@
+- [ ] Add normalization function to handle accented vowels
+- [ ] Modify the code to check for duplicates based on normalized letters
+- [ ] Test the changes
