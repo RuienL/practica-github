@@ -1,3 +1,1 @@
-- [ ] Add normalization function to handle accented vowels
-- [ ] Modify the code to check for duplicates based on normalized letters
-- [ ] Test the changes
+- [x] Fix dni.py: Correct logic errors, complete the menu options, and ensure proper collection of correct and incorrect DNIs without altering the overall structure.
